@@ -1,0 +1,23 @@
+Almao 0 1 1 1 
+Ball 1 0 1 1 
+Bajuz 1 1 0 1 
+Bartholomew 1 1 1 0 
+Batistuta 0 1 1 1 
+Blender 1 0 1 1 
+Bond 1 1 0 1 
+Capa 1 1 1 0 
+Capps 0 1 1 1 
+Chuzpitaz 1 0 1 1 
+Close 1 1 0 1 
+Costa 1 1 1 0 
+Couper 0 1 1 1 
+D'Allesandro 1 0 1 1 
+De Baggio 1 1 0 1 
+De Catania 1 1 1 0 
+Pericles 1 1 L 1 
+Pimpel 1 1 L 1 
+Primed 1 1 L 1 
+Rapper 1 1 L 1
+Rodds 1 1 L 1 
+Roggieri 1 1 L 1 
+Romero 1 1 L 1

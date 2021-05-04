@@ -1,0 +1,36 @@
+[] Swing UI
+    - [] Clear / Reset Button
+    - [] Continue / Enter Button
+    - [] Exit button
+    - [] React to key presses --> enter key
+[X] Queue
+[] Make actual algorithm used to track teachers being away
+[] Text file saying where stuff is and what it does
+
+Add stuff to this list
+
+Stuff we need in the rubric
+
+MADATORY:
+[X] Inheritance (Abstract classes)
+[X] Lists/Trees (Queue)
+[] Naming Conventions
+[] Comments
+[] Interface --> All required components
+[] Syntax
+[] Accurate output
+[] Objects
+[] Correct input/output
+
+Optional Application (Need atleast two from this section)
+[] Encapsulation
+[] Polymorphism
+[] Sorting Algorithms
+[] 2D Arrays
+
+
+Austin --> I made the algorithm for finding what teacher is away and finding a replacement, this works but I need to add something where it checks for if the replacement is away too.
+       --> I also made this log txt and the explaination file.
+
+Kyle --> June 14: fixed the method that checks if a teacher can supervise or not.
+     --> still need a way to account for the days. Example it needs to reset after a week and keep track if a teacher has 2 days in a row

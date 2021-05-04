@@ -1,0 +1,64 @@
+Keep this file in order of how it is in the .java file
+
+BlacKramDessCPT Class:
+main() --> main method. Creates the frame which launches the rest of the code
+
+Window Class:
+Window() --> Constructor for the frame that displays the table, buttons, text field
+actionPerformed() --> recognizes which button is pressed, and acts accordingly
+keyPressed() --> records the data that has been entered after the enter key is pressed
+keyTyped() --> must exist or else the compiler gets angry
+keyReleased() --> must exist or else the compiler gets angry
+
+Queue Class:
+Description --> Standard queue class, takes any teacher class as "Data"
+enqueue() --> Queue a TeacherBlueprint object at the back
+enqueueFirst() --> Queue a TeacherBlueprint object at the front
+dequeue() --> Dequeue the TeacherBlueprint object at the front.
+printQueue() --> Prints the queue
+nameExists() --> Checks to see if the name in the paramaters exists within the queue
+getTeacherBlueprint() --> Returns the TeacherBlueprint object of the name in the paramaters
+moveToBack() --> Moves the TeacherBlueprint at the front to the back
+getFirstQueueName() --> Returns the name of the first teacher
+updateTotalSupervisionAssignments() --> Updates the number of supervisions the teacher has had throughout the entire semester
+updateFirstQueue() --> Updates the total number of supervision assignments of the first teacher
+resetCurrentWeeklyOnCalls() --> Resets the currently weekly on calls of the teacher
+resetTwoConsecutiveOnCalls() --> Resets the ConsecutiveOnCalls value to 0
+removeAllFromPergatory() --> Removes all the teachers from the pergatory queue in the parameters, adds them to the front of the queue.
+appropriateAmountOfSupervisions() --> Checks if the first teacher has an appropriate amount of supervision assignments
+checkEmpty() --> Checks if the queue is empty
+
+Class TeacherBlueprint:
+updateCurrentWeeklyOnCalls() --> Needed as it is in the paren
+Description --> The abstract parent class for a teacher.
+
+Class onCallTeacherBlueprint:
+Description --> An abstract child of TeacherBlueprint, this class is for teachers who have an on-call slot
+
+Class LunchTeacherABlueprint:
+Description --> An abstract child of TeacherBlueprint, this class is for the teachers who have a lunch supervision slot
+
+Class onCallTeacher:
+Description --> The class for a teacher with on-calls.
+onCallTeacher() --> Constructor: Initalizes variables outlined in the parent
+updateTotalSupervisionAssignments() --> Updates the number of supervisions the teacher has had throughout the entire semester
+updateCurrentlyWeeklyOnCalls() --> Updates the number of on-calls the teacher has had in the current week
+resetCurrentWeeklyOnCalls() --> Resets the currentWeeklyOnCallsDone varaible
+resetTwoConsecutiveOnCalls() --> Resets the twoConsecutiveOnCalls varaible
+
+class LunchTeacher:
+Description --> The class for a teacher with lunch supervision
+LunchTeacher() --> Constructor: Initalizes variables outlined in the parent
+updateTotalSupervisionAssignments() --> Updates the total number of supervisions the teacher has had throughout the entire semester
+updateCurrentWeeklyOnCalls(), resetCurrentWeeklyOnCalls(), resetTwoConsecutiveOnCalls()
+
+Class Calculations:
+Description --> The class that provides the on-calls
+Calculations() --> Constructor: Calls populateQueues
+populateQueues() --> Populates the period queues
+calculateOnCalls() --> Determines what teachers have on-calls
+resetPergatory() --> removes teachers from pergatory and adds them back into the original queue 
+                 --> Resets all consecutive on-calls for teachers didn't do an on-call.
+createStorageArray() --> Creates an array that will store all the data. Holds the away teacher's name 
+                     --> and the on calls assigned to them for each period
+getStorageArray() --> accessor method to get the storage array 

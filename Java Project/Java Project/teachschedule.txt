@@ -1,0 +1,51 @@
+Almao 0 1 1 1 
+Ball 1 0 1 1 
+Bajuz 1 1 0 1 
+Bartholomew 1 1 1 0 
+Batistuta 0 1 1 1 
+Blender 1 0 1 1 
+Bond 1 1 0 1 
+Capa 1 1 1 0 
+Capps 0 1 1 1 
+Chuzpitaz 1 0 1 1 
+Close 1 1 0 1 
+Costa 1 1 1 0 
+Couper 0 1 1 1 
+D'Allesandro 1 0 1 1 
+De Baggio 1 1 0 1 
+De Catania 1 1 1 0 
+Di Lazio 0 1 1 1 
+Di Torino 1 0 1 1 
+Diamond 1 1 0 1 
+Drape 1 1 1 0
+Duffie 0 1 1 1 
+Dunlop 1 0 1 1 
+Fernadez 1 1 0 1 
+Fitzcarraldo 1 1 1 0 
+Gregarious 0 1 1 1 
+Henley 1 0 1 1 
+Jenny 1 1 0 1 
+Johnston 1 1 1 0 
+Kappa 0 1 1 1 
+Kelly 1 0 1 1 
+Kenny 1 1 0 1 
+King 1 1 1 0 
+Kong 0 1 1 1 
+Kruger 1 0 1 1
+Kubicle 1 1 0 1
+Kwansa 1 1 1 0 
+Latter 0 1 1 1 
+Maccademian 1 0 1 1 
+Mainstreet 1 1 0 1 
+Matter 1 1 1 0 
+Misal 0 1 1 1 
+Montpellier 1 0 1 1 
+Oracle 1 1 0 1 
+Pastor 1 1 1 0 
+Pericles 1 1 L 1 
+Pimpel 1 1 L 1 
+Primed 1 1 L 1 
+Rapper 1 1 L 1
+Rodds 1 1 L 1 
+Roggieri 1 1 L 1 
+Romero 1 1 L 1
